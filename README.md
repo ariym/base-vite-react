@@ -9,7 +9,19 @@ git remote remove origin
 npm i
 ```
 
+## Environment Variables
+
+1. Create a ```.env``` file in project root.
+1. Prefix every variable with ```VITE_``` (```VITE_SOMETHING=xxx```)
+1. Import with ```import.meta.env.VITE_SOMETHING```
+
+[Vite Documentation](https://vitejs.dev/guide/env-and-mode.html#env-files) on env files.
+
 ## Features
 
-- Tanstack Query
-- react-router-dom
+- react query
+- react router
+
+## TODO
+
+- [ ] add shadcn
