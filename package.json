@@ -1,11 +1,12 @@
 {
-  "name": "vite-react-base",
+  "name": "base-vite-react",
   "private": true,
-  "version": "0.0.0",
+  "version": "0.1.0",
   "type": "module",
   "scripts": {
-    "start": "vite",
-    "dev": "vite",
+    "start": "npm run dev",
+    "dev": "vite --mode development",
+    "prod": "vite --mode production --host 0.0.0.0",
     "build": "tsc && vite build",
     "preview": "vite preview"
   },
