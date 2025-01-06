@@ -38,8 +38,12 @@ Instead of ```NODE_ENV```, use ```import.meta.env.MODE``` by passing ```vite --m
 
 ## Libraries Included
 
-- react query
-- react router
-- shadcn
-- radix-ui/react-icons
-- vite
+- **data fetching** – [react query](https://tanstack.com/query/v5/docs/framework/react/overview)
+  - state management for updated data
+  - loading screen
+- **navigation** – [react router](https://reactrouter.com/home)
+  - adding a route
+  - url parameters
+- **ui components** – shadcn
+- **icons** – radix-ui/react-icons
+- **build sytstem** – vite
